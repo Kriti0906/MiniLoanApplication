@@ -1,0 +1,6 @@
+# Database Connection Configuration
+# Place this file in the classpath (e.g. resources folder or working directory)
+db.url=jdbc:mysql://localhost:3306/loan_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+db.user=root
+db.password=root
+db.driver=com.mysql.cj.jdbc.Driver
