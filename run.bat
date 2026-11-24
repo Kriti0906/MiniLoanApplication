@@ -25,9 +25,9 @@ REM 3. Run application with MySQL driver if present in lib/
 echo.
 echo Launching application...
 if exist "lib\*.jar" (
-    java -cp "bin;lib/*" com.newgen.loan.console.MainMenu
+    java -cp "bin;src;lib/*;." com.newgen.loan.console.MainMenu
 ) else (
-    java -cp "bin" com.newgen.loan.console.MainMenu
+    java -cp "bin;src;." com.newgen.loan.console.MainMenu
 )
 
 pause
