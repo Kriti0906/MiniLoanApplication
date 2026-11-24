@@ -29,7 +29,7 @@ public class DBConfig {
     }
 
     public static String getPassword() {
-        return properties.getProperty("db.password", "root");
+        return properties.getProperty("db.password", "system");
     }
 
     public static String getDriver() {
