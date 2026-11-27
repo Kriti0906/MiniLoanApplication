@@ -1,4 +1,4 @@
-# 🏦 Mini Loan Origination Application
+# Mini Loan Origination Application
 
 **Newgen Campus Assignment 3 | Java 17 + JDBC + MySQL**
 
@@ -6,7 +6,7 @@ A beginner-level, console-driven loan origination system implementing an end-to-
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 loan-origination/
@@ -24,35 +24,22 @@ loan-origination/
 └── docs/
 ```
 
-## 🔄 Loan Lifecycle
+## Loan Lifecycle
 
 ```
 DRAFT → UNDER_REVIEW → CREDIT_APPROVAL → DISBURSEMENT → CORE_BANKING_PUSH → EXIT
                      ↘ REJECTED         ↗ REJECTED
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Java 17
-- JDBC (no ORM)
-- MySQL 8+
+- MySQL
 
-## 📐 Key Formulas
+## Key Formulas
 
 **EMI:** `P × r × (1+r)^n / ((1+r)^n - 1)` where `r = annualRate / 1200`
 
 **FOIR:** `(obligations + EMI) / monthlyIncome × 100` — must be ≤ 50%
 
 ---
-
-## ✅ Build Progress
-
-| Module | Status |
-|--------|--------|
-| Module 1 — Model Layer | ✅ Complete |
-| Module 2 — Database Setup | 🔜 |
-| Module 3 — DAO Layer | 🔜 |
-| Module 4 — Service Layer | 🔜 |
-| Module 5 — Console UI | 🔜 |
-| Module 6 — SQL Reports | 🔜 |
-| Module 7 — Background Utilities | 🔜 |
