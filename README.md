@@ -1,6 +1,5 @@
 # Mini Loan Origination Application
 
-**Newgen Campus Assignment 3 | Java 17 + JDBC + MySQL**
 
 A beginner-level, console-driven loan origination system implementing an end-to-end loan lifecycle.
 
