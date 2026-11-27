@@ -1,8 +1,6 @@
 @echo off
 chcp 65001 >nul
-echo ========================================================
 echo  Mini Loan Origination Application - Build ^& Run
-echo ========================================================
 
 REM Navigate to project root
 cd /d "%~dp0"
